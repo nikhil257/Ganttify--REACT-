@@ -1,0 +1,375 @@
+@media (min-width: 324px) and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .app {
+    padding: 0px 10px;
+  }
+  .nav {
+    width: 100%;
+    height: 64px;
+    padding: 0px 10px;
+  }
+  .nav img {
+    width: 70px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .nav button {
+    display: none;
+  }
+  .link {
+    display: none;
+  }
+  .nav .menu {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .homepage {
+    width: 100%;
+    height: 1002px;
+    border-radius: 30px;
+    padding: 30px 16px;
+    display: block;
+    letter-spacing: -2px;
+  }
+  .goals {
+    width: 170px;
+    height: 32px;
+    font-size: 14px;
+    padding: 0px 10px;
+    letter-spacing: normal;
+  }
+  .goals img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+  .maintext {
+    font-size: 56px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 66px;
+  }
+  .left-container > p {
+    letter-spacing: normal;
+  }
+  .btn {
+    width: 100%;
+    display: block;
+    margin-top: 16px;
+  }
+  .btn button {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+  }
+  .coBox {
+    margin-top: 32px;
+  }
+  .coBox h1 {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+  .coBox div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .upwork {
+    display: none;
+  }
+  .mailchamp {
+    width: 91px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .medium {
+    width: 78.65px;
+    height: 26px;
+    object-fit: cover;
+  }
+  .ms {
+    width: 84.42px;
+    height: 24.47px;
+    object-fit: cover;
+  }
+  .right-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .viewers {
+    width: 102.92px;
+    height: 127.62px;
+    object-fit: cover;
+  }
+  .spending {
+    width: 156.44px;
+    height: 161.15px;
+    object-fit: cover;
+  }
+  .clock {
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
+    left: -45%;
+    top: -12%;
+  }
+  .card {
+    width: 205.85px;
+    height: 82.34px;
+  }
+  .card section {
+    width: 191.73px;
+    height: 25.88px;
+    padding: 10px 4px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+  .card section h1,
+  .card section p {
+    font-size: 8px;
+    letter-spacing: normal;
+  }
+  .red,
+  .yellow,
+  .green {
+    width: 4.71px;
+    height: 4.71px;
+  }
+  .card-content {
+    margin-left: 5px;
+  }
+  .box2,
+  .calendar {
+    width: 57px;
+    height: 57px;
+  }
+  .box2 {
+    left: -24%;
+    top: 0;
+  }
+  .calendar {
+    right: -28%;
+  }
+  .proof {
+    margin: 0;
+  }
+  .company {
+    padding: 24px 16px;
+    margin: 0;
+  }
+  .company h1 {
+    font-size: 14px;
+  }
+  .company div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 0;
+    margin-top: 24px;
+  }
+  .img1 {
+    width: 80.24px;
+    height: 26.52px;
+  }
+  .img2 {
+    width: 92.84px;
+    height: 26.52px;
+  }
+  .img3 {
+    width: 90.18px;
+    height: 26.52px;
+  }
+  .img4 {
+    width: 89.05px;
+    height: 26px;
+  }
+  .img5 {
+    width: 89.7px;
+    height: 26px;
+  }
+  .feature {
+    padding: 0px 16px;
+    margin-top: 44px;
+  }
+  .featbtn {
+    width: 93px;
+    height: 28px;
+    padding: 4px;
+  }
+  .feature div h1 {
+    font-size: 48px;
+    line-height: 57px;
+  }
+  .card-main {
+    margin: 0;
+    margin-top: 40px;
+    padding: 40px 16px;
+  }
+  .card-box {
+    display: block;
+  }
+  .card-box div {
+    width: 327px;
+    height: 354px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .card-box div img {
+    width: 327px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .pricing-main {
+    height: 1953px;
+    width: 100%;
+    padding: 40px 16px;
+    border-radius: 20px;
+    display: block;
+  }
+  .pricing-cont {
+    width: 100%;
+    height: 224px;
+    display: block;
+    margin-bottom: 90px;
+  }
+  .pricing-cont > div > h1 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    display: block;
+  }
+  .prices {
+    width: 100%;
+    height: 1069px;
+    display: block;
+    margin: 0;
+  }
+  .pricing-card {
+    width: 100%;
+    height: 513px;
+    border-radius: 20px;
+    margin-bottom: 22px;
+  }
+  .btn-container {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .customer-main {
+    width: 100%;
+    height: 1383px;
+    padding: 40px 16px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .customer-main > h1 {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .customer-main > p {
+    text-align: center;
+  }
+  .review-main {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  .overlay {
+    display: none;
+  }
+  .review-card {
+    width: 327px;
+    height: 307px;
+    margin-bottom: 10px;
+  }
+  .review-card2 {
+    display: none;
+  }
+  .contact {
+    width: 100%;
+    height: 548px;
+    padding: 40px 16px;
+    margin: 0;
+    display: block;
+    border-radius: 20px;
+  }
+  .contact-left {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-left > section {
+    margin: auto;
+  }
+  .text1 {
+    display: none;
+  }
+  .text2 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    line-height: 60px;
+    letter-spacing: -3px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .text2 h1 {
+    font-weight: 400;
+  }
+  .contactbutton2 {
+    display: block;
+  }
+  .contactForm {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+    height: 1264px;
+    padding: 40px 16px;
+    border-radius: 20px;
+  }
+  .footer section {
+    display: block;
+  }
+  .footer-icon {
+    margin-top: 25px;
+  }
+  .footer-links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  hr {
+    margin: 0;
+  }
+  .footer-end {
+    display: block;
+  }
+}
